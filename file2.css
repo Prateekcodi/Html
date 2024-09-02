@@ -1,4 +1,4 @@
-body{
+.time-bomb{
   font-family: sans-serif;
   margin: 10% 10%;
   border: 5px solid black;
@@ -47,4 +47,52 @@ li{
 }
 h3{
   text-transform: uppercase;
+}
+
+/* .like{
+  font-size: 16px;
+  padding: 20px;
+  bottom: 50px;
+  right: 50px;
+ 
+} */
+body{
+  display: flow-root;
+}
+
+h1{
+  position: relative;
+}
+h1::after{
+  content: "sale";
+  color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: red;
+  display: inline-block;
+  padding: 3px 10px;
+ position: absolute;
+ left: -34px;
+ top: -34px;
+
+}
+.classes{
+  margin: 10px;
+  position: relative;
+}
+.classes::after{
+  content: " ";
+  position: absolute;
+  padding: 24px;
+  background-color: red;
+  display: inline-block;
+}
+.classes::before{
+  content: " ";
+  position: absolute;
+  padding: 24px;
+  background-color: rgb(28, 101, 161);
+  left: 60px;
+  
 }
