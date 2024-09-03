@@ -81,18 +81,40 @@ h1::after{
   margin: 10px;
   position: relative;
 }
-.classes::after{
-  content: " ";
-  position: absolute;
-  padding: 24px;
-  background-color: red;
+.blue{
+  background-color: rgb(51, 22, 216);
   display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
 }
-.classes::before{
-  content: " ";
-  position: absolute;
-  padding: 24px;
-  background-color: rgb(28, 101, 161);
-  left: 60px;
+.black{
+  background-color: black;
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
   
+}
+.red{
+  background-color: rgb(182, 23, 23);
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+.yellow{
+  background-color: rgb(221, 208, 20);
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+.green{
+  background-color: rgb(27, 219, 27);
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+.anotherblue{
+  background-color: rgb(32, 42, 168);
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
 }
